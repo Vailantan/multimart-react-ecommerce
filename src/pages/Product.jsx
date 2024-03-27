@@ -19,7 +19,7 @@ const Product = () => {
   useEffect(() => {
     const fetchData = async () => {
       try { 
-        const response = await fetch('http://127.0.0.1:8000/all-products');
+        const response = await fetch('https://multimart-react-ecommerce.vercel.app/all-products');
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }
