@@ -6,6 +6,7 @@ import { addToCart } from "../../app/features/cart/cartSlice";
 import "./product-details.css";
 
 const ProductDetails = ({ selectedProduct }) => {
+  
   console.log(` from product details ${selectedProduct}`)
   const dispatch = useDispatch();
 
